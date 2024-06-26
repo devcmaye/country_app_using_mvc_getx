@@ -1,0 +1,27 @@
+name: country_app_using_mvc_getx
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  dio: # For Api Service
+  flutter:
+    sdk: flutter
+  get: #Navigate Screen
+  json_annotation: #Using Json 
+  retrofit: # To call api using Retrofit
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: # For auto generate class
+  retrofit_generator: #To generate api service generate
+  json_serializable:   #For Json
+
+
+flutter:
+  uses-material-design: true
