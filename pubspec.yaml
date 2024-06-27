@@ -13,6 +13,12 @@ dependencies:
   get: #Navigate Screen
   json_annotation: #Using Json 
   retrofit: # To call api using Retrofit
+  lottie: # for Adobe After Effects animations
+  flutter_screenutil: # make app responsive
+  shimmer: # for shimmer effect
+  intl: # for date format
+  shared_preferences: #Stored key value s
+
 
 dev_dependencies:
   flutter_test:
@@ -25,3 +31,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/data/
